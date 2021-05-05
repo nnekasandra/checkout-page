@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 80px;
+    color: #4f4f4f;
+    width: 100%;
+}    
+label{
+    display: block;
+    font-size: 16px;
+    margin-left: 6px;
+    padding: 5px;
+}
+input{
+    border: 1px solid #828282;
+    width: 500px;
+    height: 50px;
+    border-radius: 12px;
+}
+.input{
+    width: 250px;
+}
+.product-quantity{
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 500px;
+    height: 750px;
+    width: 50%;
+}
+.main h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4E5150;
+    margin-bottom: 30px;
+}
+.main p{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.main{
+    width: 50%;
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    position: relative;
+    bottom: 35px;
+    padding: 5px;
+}
+.caret{
+    position: relative;
+    top: -65px;
+    left: 150px;
+}
+::placeholder{
+    text-align: center;
+}
+#check{
+    width: 20px;
+    padding: 0;
+}
+
+.check{
+    position: relative;
+    top: -40px;
+    left: 15px;
+}
+.lowerSection{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: 2px solid #d3d3d3;
+    border-radius: 12px;
+    color: #fff;
+    background: #F2994A;
+    padding: 10px;
+    font-size: 16px;
+    width: 170px;
+    height: 60px;
+}
+.btn{
+    text-align: right;
+}
+.product-one,
+.product-two{
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    font-style: italic;
+    grid-gap: 30px;
+}
+.pricing{
+    display: flex;
+    justify-content: start;
+}
+.product-one{
+    margin-bottom: 10px;
+}
+.image-description h2{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.pricing p{
+    line-height: 20px;
+    margin-right: 20px;
+}
+.pricing p:nth-child(1){
+    color: #f2994a;
+}
+img{
+    border-radius: 12px;
+}
+.quantity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    width: 100px;
+    height: 50px;
+    margin-top: 90px;
+    font-weight: bold;
+}
+.quantity p:nth-child(odd){
+    background-color: #828282;
+    font-size: 20px;
+    padding: 3px;
+}
+.total-price{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.ship{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+@media (max-width:750px) {
+    .align{
+        flex-direction: column-reverse;
+        margin-left: unset;
+    }
+    .product-quantity{
+        width: 100%;
+    }
+    input{
+        width: 300px;
+    }
+    .input{
+        width: 180px;
+    }
+    .main{
+        width: 100%;
+    }
+}
