@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React from 'react';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
